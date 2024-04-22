@@ -23,7 +23,6 @@ export const AddExpenseForm = () => {
     setAmount("");
     setDate("");
   };
-  console.log(date);
   return (
     <form onSubmit={handleSubmit}>
       <input

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 export const TotalExpenses = () => {
   const expenses = useSelector((state) => state.expenses);
-  const total = expenses.reduce((acc, curr) => acc + curr.amount, 0);
+  const total = expenses.reduce((acc, curr) => acc + curr.amount, 0); 
 
   return (
     <div>
